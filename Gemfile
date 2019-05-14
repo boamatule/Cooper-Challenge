@@ -6,7 +6,7 @@ end
 
 ruby '2.4.1'
 gem 'bootsnap', '>= 1.2', require: false
-gem 'rails', '~> 5.2.0'
+gem 'rails', '5.2.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'jbuilder', '~> 2.5'
