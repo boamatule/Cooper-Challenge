@@ -1,5 +1,4 @@
 require_relative 'boot'
-
 require "rails"
 require "active_model/railtie"
 require "active_job/railtie"
@@ -25,7 +24,7 @@ module CooperApi
             expose: %w(access-token expiry token-type uid client),
             max_age: 0 
         end
-    end
+      end
   end
 end
 
